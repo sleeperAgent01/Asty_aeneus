@@ -1,0 +1,7 @@
+Launching TREESHRINK version 1.4.0
+TREESHRINK was called as follow
+/home/pinkpunk/miniconda3/envs/treeshrink/bin/run_treeshrink.py -t asc/amex-RAD-asc.treefile -m per-gene -o treeshrink_asc_pergene -b 3
+Solving k-shrink with k = 29
+Writing output ...
+
+Output files written to treeshrink_asc_pergene with prefix output.
