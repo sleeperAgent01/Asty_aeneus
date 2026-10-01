@@ -1,0 +1,351 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    acn132 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree -s /scratch.global/mgarduos/aeneus/newDataset/phylo/asc/amex-RAD-asc.varsites.phy --seqtype DNA --prefix amex-RAD-asc -m GTR+G+ASC -alrt 1000 -B 1000 -T 12 --redo --ninit 100 --nbest 10 --bnni --ntop 50
+Seed:    407962 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 29 20:23:17 2026
+Kernel:  AVX+FMA - 12 threads (12 CPU cores detected)
+
+Reading alignment file /scratch.global/mgarduos/aeneus/newDataset/phylo/asc/amex-RAD-asc.varsites.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 221 sequences with 153773 columns, 153081 distinct patterns
+96846 parsimony-informative, 56927 singleton sites, 0 constant sites
+                         Gap/Ambiguity  Composition  p-value
+   1  Aanai_T7384                8.10%    failed      0.00%
+   2  Aanai_T7385               10.57%    failed      0.00%
+   3  Actopan_T1177              7.29%    failed      1.67%
+   4  Actopan_T1178              7.88%    failed      0.17%
+   5  Actopan_T1179              7.20%    failed      1.41%
+   6  Actopan_T1180              7.70%    failed      0.02%
+   7  Bacalar_A12P1              6.81%    passed     36.12%
+   8  Bacalar_B12P1              6.87%    passed     42.58%
+   9  Bacalar_C12P1              6.58%    passed     22.38%
+  10  Bacalar_D12P1              6.60%    passed     29.62%
+  11  Bacalar_E12P1              6.90%    passed     51.99%
+  12  Bacalar_F12P1              6.98%    passed     51.61%
+  13  Bacalar_G12P1              8.20%    passed     94.94%
+  14  BetelGuatemala_B7P2        6.50%    passed      5.90%
+  15  BetelGuatemala_C7P2        6.43%    failed      3.24%
+  16  BetelGuatemala_D7P2        6.65%    failed      3.82%
+  17  CanalMadero_T8337          9.89%    failed      0.00%
+  18  CanalMadero_T8338          9.05%    failed      0.00%
+  19  CanalMadero_T8339          9.18%    failed      0.00%
+  20  Candelaria_G11P1           7.82%    passed     94.02%
+  21  Candelaria_H11P1           9.46%    passed     72.32%
+  22  Catemaco_T0287             6.61%    passed     96.26%
+  23  Catemaco_T1950             8.69%    passed     26.74%
+  24  Catemaco_T1952             9.26%    passed     13.76%
+  25  Catemaco_T1953             7.95%    passed     22.71%
+  26  Catemaco_T1954             7.72%    passed     50.67%
+  27  Chalaca_T8158              8.82%    failed      0.00%
+  28  Chalaca_T8159              8.95%    failed      0.00%
+  29  Chalaca_T8160              8.72%    failed      0.00%
+  30  Chalaca_T8161              9.05%    failed      0.00%
+  31  Chalaca_T8163              9.22%    failed      0.00%
+  32  Chi_20                     6.86%    failed      0.00%
+  33  Chi_21                     6.97%    failed      0.00%
+  34  Chi_22                     6.37%    failed      0.00%
+  35  Chi_23                     6.85%    failed      0.00%
+  36  Chi_28                     6.31%    failed      0.00%
+  37  Chi_29                     7.50%    failed      0.03%
+  38  Chi_30                     7.06%    failed      0.01%
+  39  Chi_66                     6.53%    failed      0.04%
+  40  Chi_67                     6.76%    failed      0.22%
+  41  Chi_68                     6.86%    failed      0.10%
+  42  Chi_70                     6.25%    failed      0.00%
+  43  Chi_71                     5.99%    failed      0.00%
+  44  Coyame_T0171               8.69%    passed      8.27%
+  45  Coyame_T0172               8.36%    passed     10.37%
+  46  Coyame_T0173               9.32%    passed     29.06%
+  47  Coyame_T0175               7.77%    passed     28.78%
+  48  Cuert23_S43               10.98%    passed     46.44%
+  49  Cuert24_S55                9.67%    failed      0.42%
+  50  Cuet30A_S19                7.71%    passed     35.45%
+  51  Cuet7A_S31                14.69%    failed      0.00%
+  52  ElChante_T0441            13.58%    passed     86.74%
+  53  ElChante_T0442            11.09%    failed      0.43%
+  54  ElChante_T0444             9.30%    failed      0.00%
+  55  ElLimon_T0495              8.43%    failed      0.00%
+  56  ElLimon_T0496              9.57%    failed      0.00%
+  57  ElLimon_T0497             10.27%    failed      0.00%
+  58  ElLimon_T0499              9.56%    failed      0.00%
+  59  ElLimon_T0500              9.14%    failed      0.00%
+  60  ET2702_S163                8.76%    failed      0.00%
+  61  ET2703_S142                9.52%    failed      0.00%
+  62  Hojaral_T8379              9.17%    failed      0.00%
+  63  Hojaral_T8380              8.62%    failed      0.00%
+  64  Hojaral_T8381              8.94%    failed      0.00%
+  65  Hojaral_T8382              9.02%    failed      0.00%
+  66  Hojaral_T8383              9.00%    failed      0.00%
+  67  Hojaral_T8384              9.06%    failed      0.00%
+  68  Hojaral_T8385              9.75%    failed      0.00%
+  69  Hojaral_T8386             10.32%    failed      0.00%
+  70  Hojaral_T8387              9.04%    failed      0.00%
+  71  Hojaral_T8388              9.78%    failed      0.00%
+  72  Hunucma_T5554              7.56%    failed      1.04%
+  73  Hunucma_T5555              6.34%    failed      0.00%
+  74  LaLibertad_T1484          11.75%    passed     22.64%
+  75  LaLibertad_T1485          10.22%    passed     84.11%
+  76  LaLibertad_T1489          10.68%    passed     90.55%
+  77  LaLibertad_T1490          13.45%    passed     98.56%
+  78  LaLibertad_T1493           9.58%    passed     99.27%
+  79  LaLibertad_T1494           9.33%    passed     65.84%
+  80  LaPuertaCentla_A5P2        6.65%    passed     50.58%
+  81  LaPuertaCentla_B5P2        6.63%    passed     39.92%
+  82  LaPuertaCentla_C5P2        6.77%    passed     89.64%
+  83  LaPuertaCentla_H4P2        6.72%    passed     71.64%
+  84  LasEstacas_A3P2            8.40%    failed      0.00%
+  85  LasEstacas_B3P2            9.27%    failed      0.00%
+  86  LasEstacas_D3P2            9.00%    failed      0.00%
+  87  LasPalmas_T8106           18.38%    failed      0.00%
+  88  LasPalmas_T8107            9.88%    failed      0.00%
+  89  LasPalmas_T8108           11.27%    failed      0.00%
+  90  LasPalmas_T8111            9.35%    failed      0.00%
+  91  LasPalmas_T8112           10.17%    failed      0.00%
+  92  MadreVieja_T8135           9.09%    failed      0.00%
+  93  MadreVieja_T8136          10.66%    failed      0.00%
+  94  MadreVieja_T8138           9.23%    failed      0.00%
+  95  MadreVieja_T8141           9.34%    failed      0.00%
+  96  MadreVieja_T8142           8.78%    failed      0.00%
+  97  Maquinas_PIO10             5.45%    failed      0.00%
+  98  Maquinas_PIO13             6.60%    failed      0.00%
+  99  Maquinas_PIO2              5.36%    failed      0.00%
+ 100  Maquinas_PIO5             18.39%    passed     87.49%
+ 101  Maquinas_PIO6              7.61%    failed      0.14%
+ 102  Matapalo_Gua_T7267         3.62%    failed      0.00%
+ 103  Matapalo_Gua_T7268         3.66%    failed      0.00%
+ 104  MatiasRomero_T1231         8.27%    failed      0.02%
+ 105  MatiasRomero_T1232         7.80%    failed      4.59%
+ 106  MatiasRomero_T1234         9.14%    passed      6.71%
+ 107  MatiasRomero_T1235         9.79%    failed      1.95%
+ 108  MatiasRomero_T1237         7.34%    passed     20.73%
+ 109  Metzabok_T1747             7.41%    failed      0.03%
+ 110  Metzabok_T1748             9.79%    passed     23.03%
+ 111  Metzabok_T1749             9.28%    passed     35.46%
+ 112  Metzabok_T1750            10.28%    failed      2.72%
+ 113  Metzabok_T1763             8.89%    passed     28.19%
+ 114  Metzabok_T1786            15.29%    passed     68.67%
+ 115  Metzabok_T1789            14.59%    passed     64.76%
+ 116  Metzabok_T1790            11.80%    passed     78.94%
+ 117  Noc-Ac_T1682               6.78%    failed      0.00%
+ 118  Noc-Ac_T1684               8.90%    failed      0.00%
+ 119  Noc-Ac_T1687              12.17%    passed     11.70%
+ 120  Noc-Ac_T1691              10.18%    failed      0.03%
+ 121  Noc-Ac_T1692              11.00%    failed      0.52%
+ 122  Noc-Ac_T1693              10.33%    failed      0.01%
+ 123  NocChoncunchey_C4P2        6.79%    failed      0.14%
+ 124  NocChoncunchey_D4P2        6.89%    failed      0.93%
+ 125  NocChoncunchey_E4P2        6.94%    failed      0.38%
+ 126  Novillero_T8199            8.91%    failed      0.00%
+ 127  Novillero_T8201            8.92%    failed      0.00%
+ 128  Novillero_T8202            9.00%    failed      0.00%
+ 129  Novillero_T8205            9.13%    failed      0.00%
+ 130  Novillero_T8206            9.15%    failed      0.00%
+ 131  NuevaFrancia_T4987         9.57%    failed      0.00%
+ 132  NuevaFrancia_T4988        10.31%    failed      0.00%
+ 133  NuevaFrancia_T4989        10.01%    failed      0.00%
+ 134  NuevaFrancia_T4990        11.87%    failed      0.00%
+ 135  NuevaFrancia_T4992        10.52%    failed      0.00%
+ 136  Ostuta_T7972              10.14%    failed      0.00%
+ 137  Ostuta_T7973               9.27%    failed      0.00%
+ 138  Ostuta_T7974               9.44%    failed      0.00%
+ 139  Ostuta_T7975               9.65%    failed      0.00%
+ 140  Ostuta_T7977               9.62%    failed      0.00%
+ 141  PasodeMachons_A4P2         5.97%    passed      9.66%
+ 142  PasodeMachons_B4P2         6.22%    passed     34.60%
+ 143  PasodeMachons_F3P2         6.28%    passed     35.23%
+ 144  PasodeMachons_H3P2        10.64%    failed      0.00%
+ 145  Perros_T7906               9.33%    failed      0.00%
+ 146  Perros_T7907               9.16%    failed      0.00%
+ 147  Perros_T7908               9.09%    failed      0.00%
+ 148  Perros_T7909               9.30%    failed      0.00%
+ 149  Pijijiapan_T8277           8.94%    failed      0.00%
+ 150  Pijijiapan_T8278           8.84%    failed      0.00%
+ 151  Pijijiapan_T8281           8.87%    failed      0.00%
+ 152  Pijijiapan_T8283           9.15%    failed      0.00%
+ 153  Pijijiapan_T8286           8.88%    failed      0.00%
+ 154  PlayonGuatemala_A7P2       6.56%    passed     16.07%
+ 155  PlayonGuatemala_E6P2       6.57%    failed      4.13%
+ 156  PlayonGuatemala_F6P2       6.64%    passed     10.27%
+ 157  PlayonGuatemala_G6P2       6.61%    passed     30.49%
+ 158  PlayonGuatemala_H6P2       6.47%    failed      1.98%
+ 159  Pueraran_T0534             9.77%    failed      0.00%
+ 160  Pueraran_T0535            10.28%    failed      0.05%
+ 161  Pueraran_T0538             9.74%    failed      0.01%
+ 162  Pueraran_T0539             9.60%    failed      0.00%
+ 163  RioLacantun_A6P2           6.50%    passed     10.95%
+ 164  RioLacantun_B6P2           6.57%    passed      5.59%
+ 165  RioLacantun_D6P2           6.61%    failed      3.69%
+ 166  RioLacantun_H5P2           6.46%    failed      2.55%
+ 167  RioLaRosa_T0418            8.68%    failed      0.00%
+ 168  RioLaRosa_T0419            9.55%    failed      0.00%
+ 169  RioLaRosa_T0420            9.59%    failed      0.00%
+ 170  RioLaRosa_T0421           10.81%    failed      0.09%
+ 171  RioLaRosa_T0422            9.98%    failed      0.00%
+ 172  SanFernando_B9P2           6.68%    passed     16.12%
+ 173  SanIsidro_T2124            7.48%    passed     98.75%
+ 174  SanIsidro_T2125            7.94%    passed     73.47%
+ 175  SanIsidro_T8063            8.87%    failed      0.00%
+ 176  SanIsidro_T8064            9.21%    failed      0.00%
+ 177  SanIsidro_T8315            8.94%    failed      0.00%
+ 178  SanIsidro_T8319            8.91%    failed      0.00%
+ 179  SanIsidro_T8320            9.56%    failed      0.00%
+ 180  SanIsidroTabasco_E5P2      6.82%    passed     64.23%
+ 181  SanIsidroTabasco_F5P2      6.84%    passed     61.58%
+ 182  SanIsidroTabasco_G5P2      6.57%    passed     73.50%
+ 183  SanJuandelRio_T0688        9.29%    failed      0.00%
+ 184  SanJuandelRio_T0689       10.45%    failed      0.00%
+ 185  SanJuandelRio_T0690        9.15%    failed      0.00%
+ 186  SanJuandelRio_T0691        9.78%    failed      0.00%
+ 187  Sequeleno_T8361            9.06%    failed      0.00%
+ 188  Sequeleno_T8362            8.90%    failed      0.00%
+ 189  Sequeleno_T8363            9.09%    failed      0.00%
+ 190  Sequeleno_T8364            9.36%    failed      0.00%
+ 191  Sesecapa_T8130             9.01%    failed      0.00%
+ 192  Sesecapa_T8131             8.91%    failed      0.00%
+ 193  Soteapan_T1294             6.81%    passed     35.27%
+ 194  Soteapan_T1295             6.80%    passed     58.08%
+ 195  Soteapan_T1296             6.78%    passed     76.14%
+ 196  Soteapan_T1298             7.28%    passed     30.16%
+ 197  Soteapan_T1299             8.36%    passed     22.18%
+ 198  Soteapan_T1300             7.17%    passed     75.86%
+ 199  Tehuantepec_T1374         11.09%    failed      0.00%
+ 200  Tehuantepec_T1376          9.33%    failed      0.00%
+ 201  Tehuantepec_T1377          9.76%    failed      0.00%
+ 202  Tehuantepec_T1378         10.25%    failed      0.00%
+ 203  Tehuantepec_T1379         10.92%    failed      0.00%
+ 204  Tehuantepec_T1380          9.58%    failed      0.00%
+ 205  Tehuantepec_T1381          9.77%    failed      0.00%
+ 206  Tehuantepec_T1382         11.19%    failed      0.00%
+ 207  Tiltepec_T8323             9.25%    failed      0.00%
+ 208  Tiltepec_T8324             9.33%    failed      0.00%
+ 209  Tiltepec_T8325            24.61%    failed      0.00%
+ 210  Tiltepec_T8327             9.37%    failed      0.00%
+ 211  Tiltepec_T8328             8.96%    failed      0.00%
+ 212  TornilloUsumacinta_E7P2   11.16%    passed     91.64%
+ 213  TornilloUsumacinta_G7P2    6.73%    passed     10.61%
+ 214  TresBrazos_T2070           7.41%    passed     99.91%
+ 215  TresBrazos_T2071           7.30%    passed     99.47%
+ 216  TresBrazos_T2072           7.31%    passed     85.85%
+ 217  Yautepec_D2P2              8.73%    failed      0.00%
+ 218  Yautepec_E2P2              8.82%    failed      0.00%
+ 219  Yautepec_F2P2              8.62%    failed      0.00%
+ 220  Yautepec_G2P2              8.41%    failed      0.00%
+ 221  Yautepec_H2P2              8.68%    failed      0.00%
+****  TOTAL                      8.82%  154 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000650309 for long alignment
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 8.004 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 407962)...
+
+NOTE: 4972 MB RAM (4 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3024275.037
+2. Current log-likelihood: -2852105.331
+3. Current log-likelihood: -2851869.380
+4. Current log-likelihood: -2851863.067
+5. Current log-likelihood: -2851862.709
+Optimal log-likelihood: -2851862.660
+Rate parameters:  A-C: 1.01420  A-G: 4.21608  A-T: 1.93790  C-G: 0.43457  C-T: 4.14292  G-T: 1.00000
+Base frequencies:  A: 0.188  C: 0.312  G: 0.311  T: 0.189
+Gamma shape alpha: 0.536
+Parameters optimization took 5 rounds (100.329 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 2.014677 sec (of wall-clock time) 18.321183 sec(of CPU time)
+Computing RapidNJ tree took 1.533883 sec (of wall-clock time) 0.967582 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2869398.556
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 759.088 second
+Computing log-likelihood of 98 initial trees ... 128.121 seconds
+Current best score: -2851862.660
+
+Do NNI search on 50 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2851654.517
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -2850728.516
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -2850419.962
+Iteration 10 / LogL: -2850967.999 / Time: 0h:21m:16s
+Iteration 20 / LogL: -2851038.915 / Time: 0h:24m:52s
+Iteration 30 / LogL: -2851209.532 / Time: 0h:28m:17s (1h:10m:40s left)
+Iteration 40 / LogL: -2851167.883 / Time: 0h:31m:41s (0h:50m:51s left)
+Iteration 50 / LogL: -2851263.487 / Time: 0h:35m:10s (0h:37m:49s left)
+Finish initializing candidate tree set (20)
+Current best tree score: -2850419.962 / CPU time: 1969.928
+Number of iterations: 50
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 60 / LogL: -2851113.541 / Time: 0h:38m:40s (0h:28m:2s left)
+Iteration 70 / LogL: -2851816.810 / Time: 0h:41m:59s (0h:19m:59s left)
+Iteration 80 / LogL: -2850572.486 / Time: 0h:45m:26s (0h:13m:10s left)
+Iteration 90 / LogL: -2851051.524 / Time: 0h:48m:49s (0h:7m:6s left)
+Iteration 100 / LogL: -2851110.295 / Time: 0h:53m:54s (0h:1m:37s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 104 ITERATIONS / Time: 3h:21m:29s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2850419.962
+2. Current log-likelihood: -2850419.940
+3. Current log-likelihood: -2850419.922
+4. Current log-likelihood: -2850419.910
+5. Current log-likelihood: -2850419.898
+Optimal log-likelihood: -2850419.890
+Rate parameters:  A-C: 1.01514  A-G: 4.21613  A-T: 1.93779  C-G: 0.43402  C-T: 4.14409  G-T: 1.00000
+Base frequencies:  A: 0.188  C: 0.312  G: 0.311  T: 0.189
+Gamma shape alpha: 0.535
+Parameters optimization took 5 rounds (48.729 sec)
+BEST SCORE FOUND : -2850419.890
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+64.822 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file amex-RAD-asc.splits.nex
+Total tree length: 2.819
+
+Total number of iterations: 104
+CPU time used for tree search: 114947.729 sec (31h:55m:47s)
+Wall-clock time used for tree search: 11948.838 sec (3h:19m:8s)
+Total CPU time used: 117226.902 sec (32h:33m:46s)
+Total wall-clock time used: 12204.253 sec (3h:23m:24s)
+UFBoot trees printed to amex-RAD-asc.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file amex-RAD-asc.splits.nex...
+221 taxa and 5686 splits.
+Consensus tree written to amex-RAD-asc.contree
+Reading input trees file amex-RAD-asc.contree
+Log-likelihood of consensus tree: -2855007.372
+
+Analysis results written to: 
+  IQ-TREE report:                amex-RAD-asc.iqtree
+  Maximum-likelihood tree:       amex-RAD-asc.treefile
+  Likelihood distances:          amex-RAD-asc.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          amex-RAD-asc.splits.nex
+  Consensus tree:                amex-RAD-asc.contree
+  UFBoot trees:                  amex-RAD-asc.ufboot
+  Screen log file:               amex-RAD-asc.log
+
+Date and Time: Tue Sep 29 23:47:14 2026
