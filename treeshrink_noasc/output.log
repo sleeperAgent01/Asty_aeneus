@@ -1,0 +1,9 @@
+Launching TREESHRINK version 1.4.0
+TREESHRINK was called as follow
+/home/pinkpunk/miniconda3/envs/treeshrink/bin/run_treeshrink.py -t noasc/amex-RAD-NOASC.treefile -o treeshrink_noasc -b 3
+There are only 1 gene trees in the dataset.
+TreeShrink will run in 'All-genes' mode
+Solving k-shrink with k = 29
+Writing output ...
+
+Output files written to treeshrink_noasc with prefix output.
